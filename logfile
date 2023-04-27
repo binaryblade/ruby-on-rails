@@ -1,0 +1,53 @@
+2023-04-26 18:06:32.790 MDT [29492] LOG:  starting PostgreSQL 15.2 on aarch64-apple-darwin22.4.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2023-04-26 18:06:32.791 MDT [29492] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-26 18:06:32.791 MDT [29492] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-26 18:06:32.791 MDT [29492] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-04-26 18:06:32.793 MDT [29495] LOG:  database system was shut down at 2023-04-26 18:06:04 MDT
+2023-04-26 18:06:32.794 MDT [29492] LOG:  database system is ready to accept connections
+2023-04-26 18:07:20.294 MDT [29591] ERROR:  relation "public.Users" does not exist at character 15
+2023-04-26 18:07:20.294 MDT [29591] STATEMENT:  SELECT * FROM public."Users" LIMIT 1000;
+2023-04-26 19:14:37.025 MDT [29493] LOG:  checkpoint starting: time
+2023-04-26 19:14:44.245 MDT [29493] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.215 s, sync=0.003 s, total=7.220 s; sync files=11, longest=0.001 s, average=0.001 s; distance=266 kB, estimate=266 kB
+2023-04-26 20:23:16.600 MDT [29492] LOG:  received fast shutdown request
+2023-04-26 20:23:16.601 MDT [29492] LOG:  aborting any active transactions
+2023-04-26 20:23:16.602 MDT [29492] LOG:  background worker "logical replication launcher" (PID 29498) exited with exit code 1
+2023-04-26 20:23:16.602 MDT [29493] LOG:  shutting down
+2023-04-26 20:23:16.602 MDT [29493] LOG:  checkpoint starting: shutdown immediate
+2023-04-26 20:23:16.604 MDT [29493] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.002 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=239 kB
+2023-04-26 20:23:16.606 MDT [29492] LOG:  database system is shut down
+2023-04-26 21:59:03.152 MDT [51518] LOG:  starting PostgreSQL 15.2 on aarch64-apple-darwin22.4.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2023-04-26 21:59:03.154 MDT [51518] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-26 21:59:03.154 MDT [51518] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-26 21:59:03.154 MDT [51518] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-04-26 21:59:03.156 MDT [51521] LOG:  database system was shut down at 2023-04-26 21:58:14 MDT
+2023-04-26 21:59:03.159 MDT [51518] LOG:  database system is ready to accept connections
+2023-04-26 21:59:13.989 MDT [51663] FATAL:  role "cvs" does not exist
+2023-04-26 21:59:13.989 MDT [51664] FATAL:  role "cvs" does not exist
+2023-04-26 21:59:51.247 MDT [51828] FATAL:  role "cvs" does not exist
+2023-04-26 22:00:17.749 MDT [51877] FATAL:  role "cvs" does not exist
+2023-04-26 22:00:33.662 MDT [51897] FATAL:  role "cvs" does not exist
+2023-04-26 22:04:03.188 MDT [51519] LOG:  checkpoint starting: time
+2023-04-26 22:04:07.463 MDT [51519] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.273 s, sync=0.001 s, total=4.276 s; sync files=11, longest=0.001 s, average=0.001 s; distance=266 kB, estimate=266 kB
+2023-04-26 22:05:03.197 MDT [51518] LOG:  could not open file "postmaster.pid": No such file or directory
+2023-04-26 22:05:03.199 MDT [51518] LOG:  performing immediate shutdown because data directory lock file is invalid
+2023-04-26 22:05:03.199 MDT [51518] LOG:  received immediate shutdown request
+2023-04-26 22:05:03.199 MDT [51518] LOG:  could not open file "postmaster.pid": No such file or directory
+2023-04-26 22:05:03.202 MDT [51518] LOG:  database system is shut down
+2023-04-26 22:06:21.633 MDT [62612] LOG:  starting PostgreSQL 15.2 on aarch64-apple-darwin22.4.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2023-04-26 22:06:21.634 MDT [62612] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-26 22:06:21.634 MDT [62612] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-26 22:06:21.634 MDT [62612] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-04-26 22:06:21.636 MDT [62615] LOG:  database system was shut down at 2023-04-26 22:06:11 MDT
+2023-04-26 22:06:21.638 MDT [62612] LOG:  database system is ready to accept connections
+2023-04-26 22:06:31.761 MDT [62645] FATAL:  role "cvs" does not exist
+2023-04-26 22:07:15.780 MDT [62828] FATAL:  role "cvs" does not exist
+2023-04-26 22:07:15.781 MDT [62829] FATAL:  role "cvs" does not exist
+2023-04-26 22:08:40.318 MDT [63088] FATAL:  role "cvs" does not exist
+2023-04-26 22:08:40.319 MDT [63089] FATAL:  role "cvs" does not exist
+2023-04-26 22:10:45.981 MDT [62612] LOG:  received fast shutdown request
+2023-04-26 22:10:45.982 MDT [62612] LOG:  aborting any active transactions
+2023-04-26 22:10:45.982 MDT [62612] LOG:  background worker "logical replication launcher" (PID 62618) exited with exit code 1
+2023-04-26 22:10:45.983 MDT [62613] LOG:  shutting down
+2023-04-26 22:10:45.983 MDT [62613] LOG:  checkpoint starting: shutdown immediate
+2023-04-26 22:10:45.987 MDT [62613] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.005 s; sync files=11, longest=0.001 s, average=0.001 s; distance=266 kB, estimate=266 kB
+2023-04-26 22:10:45.988 MDT [62612] LOG:  database system is shut down
